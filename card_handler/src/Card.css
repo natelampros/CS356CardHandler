@@ -1,0 +1,59 @@
+.card-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* or the width you prefer */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto; /* Adjust as needed, or use a specific height */
+}
+
+.contributor-container,
+.card-text,
+.card-footer {
+  margin-bottom: 20px; /* Equal spacing between elements */
+}
+
+.card-text {
+  font-size: 16px;
+  color: black;
+  font-style: italic;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0; /* Remove margin-bottom for the last element */
+}
+
+.contributor {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card-category {
+  background-color: #c0f9d7; /* Default green, will be overridden by specific classes */
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold; /* Make category text bold */
+  text-transform: uppercase;
+}
+
+/* Category specific colors */
+.category-movie {
+  background-color: #c0f9d7; /* Green */
+}
+
+.category-funny {
+  background-color: #7bd3ea; /* Light Blue */
+}
+
+.category-inspirational {
+  background-color: #dfccfb; /* Purple */
+}
