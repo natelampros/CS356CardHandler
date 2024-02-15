@@ -22,11 +22,6 @@ const quotes = [
     },
     {
       category: "Movie",
-      text: "Say 'hello' to my little friend!",
-      contributor: "Scarface",
-    },
-    {
-      category: "Movie",
       text: "My precious.",
       contributor: "The Lord of the Rings: The Two Towers",
     },
@@ -39,11 +34,6 @@ const quotes = [
       category: "Movie",
       text: "Which would be worse, to live as a monster or die as a good man?",
       contributor: "Shutter Island",
-    },
-    {
-      category: "Movie",
-      text: "I could do this all day",
-      contributor: "Captain America: Civil War",
     },
     {
       category: "Movie",
@@ -111,16 +101,6 @@ const quotes = [
       category: "Inspirational",
       text: "The bad news is time flies. The good news is you're the pilot.",
       contributor: "Michael Altshuler",
-    },
-    {
-      category: "Inspirational",
-      text: "Keep your face always toward the sunshine, and shadows will fall behind you.",
-      contributor: "Walt Whitman",
-    },
-    {
-      category: "Inspirational",
-      text: "Be courageous. Challenge orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to your grandchildren many years from now, be sure you have a good story to tell.",
-      contributor: "Amal Clooney",
     },
     {
       category: "Inspirational",
