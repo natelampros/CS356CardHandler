@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CS356CardHandler/static/css/main.5a9339a6.css",
+    "main.css": "/CS356CardHandler/static/css/main.6e859e69.css",
     "main.js": "/CS356CardHandler/static/js/main.1be2e622.js",
     "static/js/453.2719a1a0.chunk.js": "/CS356CardHandler/static/js/453.2719a1a0.chunk.js",
     "index.html": "/CS356CardHandler/index.html",
-    "main.5a9339a6.css.map": "/CS356CardHandler/static/css/main.5a9339a6.css.map",
+    "main.6e859e69.css.map": "/CS356CardHandler/static/css/main.6e859e69.css.map",
     "main.1be2e622.js.map": "/CS356CardHandler/static/js/main.1be2e622.js.map",
     "453.2719a1a0.chunk.js.map": "/CS356CardHandler/static/js/453.2719a1a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a9339a6.css",
+    "static/css/main.6e859e69.css",
     "static/js/main.1be2e622.js"
   ]
 }
