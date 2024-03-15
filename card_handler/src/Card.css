@@ -3,57 +3,71 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 10px;
-  width: 300px; /* or the width you prefer */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: auto; /* Adjust as needed, or use a specific height */
 }
 
-.contributor-container,
-.card-text,
-.card-footer {
-  margin-bottom: 20px; /* Equal spacing between elements */
+.card-title {
+  font-weight: bold;
+  font-size: 20px; /* Adjust size as needed */
+  margin-bottom: 10px;
 }
 
-.card-text {
+.card-code {
+  align-self: flex-start;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0; /* Space between code and description */
+}
+
+.card-description {
   font-size: 16px;
   color: black;
-  font-style: italic;
+  margin-bottom: 20px; /* Space between description and footer */
 }
 
 .card-footer {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin: 0; /* Remove margin-bottom for the last element */
 }
 
-.contributor {
+.prerequisite-label {
   font-weight: bold;
-  font-size: 14px;
+  margin-right: 10px; /* Space between label and prerequisite text */
 }
 
-.card-category {
-  background-color: #c0f9d7; /* Default green, will be overridden by specific classes */
+.card-prerequisite {
+  background-color: #c0f9d7; /* Green */
   border-radius: 15px;
   padding: 5px 10px;
   color: #333;
   font-size: 12px;
-  font-weight: bold; /* Make category text bold */
+  font-weight: bold;
   text-transform: uppercase;
 }
-
-/* Category specific colors */
-.category-movie {
-  background-color: #c0f9d7; /* Green */
+.card-container {
+  margin: 0; /* Overriding previous margin setting */
 }
 
-.category-funny {
-  background-color: #7bd3ea; /* Light Blue */
+/* Remove space between columns by overriding Bootstrap's padding */
+.container .row > [class^="col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
 
-.category-inspirational {
-  background-color: #dfccfb; /* Purple */
+/* Optional: If your cards or their containers have margins, set them to 0 */
+.class-card,
+.card-container {
+  margin: 0;
+}
+
+/* Ensure the cards themselves touch if they have borders or internal spacing */
+.card {
+  border-radius: 0; /* Optional: Removes border-radius if desired */
 }
